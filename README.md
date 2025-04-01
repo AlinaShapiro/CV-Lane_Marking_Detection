@@ -7,16 +7,15 @@ This project implements a basic lane detection and intersection point estimation
 1.  **Image Preprocessing:** Convert the image to grayscale and applie thresholding to isolate lane markings.
 2.  **Line Detection:** Use the Hough Transform to detect lines in the processed image.
 3.  **Line Clustering:** Group detected lines using K-Means clustering to identify lane candidates.
-4.  **Vanishing Point Calculation:** Calculate the intersection point of the clustered lines to estimate the vanishing point.
+4.  **Itersection Point Calculation:** Calculate the intersection point of the clustered lines.
 
 ## Dependencies:
-
-•   Python 3.10+
-•   OpenCV
-•   NumPy
-•   Matplotlib
-•   Scikit-learn 
+* Python 3.10+
+* OpenCV
+* NumPy
+* Matplotlib
+* Scikit-learn 
 
 ## Result:
 ![Original Image](assets/road1.png) 
-![Lines Detected by Hough Transform](assets/road_1_out.png)
+![Lines Detected by Hough Transform](assets/road1_out.png)
